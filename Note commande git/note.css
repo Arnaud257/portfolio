@@ -1,0 +1,22 @@
+/* Vérifie les fichiers modifiés */
+git status
+
+/*Pour tout ajouter d’un coup :*/
+git add .
+
+/*ou pour un seul fichier :*/
+git add index.html
+
+/*Valide et envoie vers GitHub*/
+git commit -m "Mise à jour du fichier index.html"
+git push origin main
+
+/*Si tu veux vérifier les différences avant d’envoyer :*/
+git diff
+
+
+/*🧠 EXEMPLE COMPLET*/
+git status
+git add index.html
+git commit -m "Amélioration du contenu de la page d'accueil"
+git push origin main
