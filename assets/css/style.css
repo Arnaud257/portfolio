@@ -4,6 +4,12 @@ p, a{
     font-family: "Poppins", Sans-serif;
     color: #3C3E41;
 }
+h1{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    color: #FF014F !important;
+}
 h2{
     font-family: "Montserrat", Sans-serif;
     font-size: 50px;
@@ -47,4 +53,23 @@ button.mail-head {
     font-family: "Montserrat", Sans-serif;
     font-size: 14px;
     font-weight: 700;
+}
+
+/*-----hero section-----*/
+span.strock-text {
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #212428;
+    stroke: #212428;
+    color: transparent;
+    display: inline-block;
+}
+img.img-hero {
+    width: 500px;
+    margin-top: -180px;
+    pointer-events: none;
+}
+.red-txt{
+    position: relative;
+    z-index: 9;
 }
